@@ -18,7 +18,8 @@ def initials_generator(personsName):
 
     for string in name:
         print(string[0], sep='', end='')
-        print('.', sep='', end=' ')
+        print('.', sep='', end='')
+        print(' ', sep='', end='')
 
     return personsInitials.strip()
 
